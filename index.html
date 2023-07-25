@@ -7,12 +7,13 @@
     <link rel="shortcut icon" href="images/others/extrabike.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Biker Zone</title>
     <style>
-        .font-poppins{
+        .font-poppins {
             font-family: 'Poppins', sans-serif;
         }
     </style>
@@ -21,7 +22,8 @@
 <body>
     <!-- header starts -->
     <header class="w-4/6 mx-auto">
-        <nav class="navbar bg-base-100">
+        <!-- nav starts -->
+        <nav class="navbar bg-base-100 py-14">
             <div class="flex-1">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -39,7 +41,7 @@
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <a class="btn btn-ghost normal-case text-4xl font-poppins font-bold">Biker Zone</a>
+                <a class="normal-case text-4xl font-poppins font-bold">Biker Zone</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal text-base font-poppins font-medium px-1">
@@ -53,6 +55,83 @@
                 <a class="btn btn-error px-12 text-white text-xl font-bold font-poppins">Login</a>
             </div>
         </nav>
+
+        <!-- banner starts -->
+        <section class="bg-[#fff7ed] rounded-lg">
+            <div class="carousel w-full">
+                <!-- slide-1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <div class="flex flex-col lg:flex-row p-28 gap-x-16">
+                        <div>
+                            <p class="font-poppins text-6xl font-bold pb-5">Ride-on R15 V4 with Smile</p>
+                            <p class="font-poppins text-base font-light pb-12">Amet minim mollit non deserunt ullamco
+                                <br>est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit
+                                mollit.
+                            </p>
+                            <a class="btn btn-error px-12 text-white text-xl font-bold font-poppins">Purchase</a>
+                        </div>
+                        <img src="images/slider/bike4.png" class="w-1/2" />
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide-2 -->
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div class="flex flex-col lg:flex-row p-28 gap-x-16">
+                        <div>
+                            <p class="font-poppins text-6xl font-bold pb-5">Ride-on R15 V4 with Smile</p>
+                            <p class="font-poppins text-base font-light pb-12">Amet minim mollit non deserunt ullamco
+                                <br>est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit
+                                mollit.
+                            </p>
+                            <a class="btn btn-error px-12 text-white text-xl font-bold font-poppins">Purchase</a>
+                        </div>
+                        <img src="images/slider/bike2.png" class="w-1/2" />
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide-3 -->
+                <div id="slide3" class="carousel-item relative w-full">
+                    <div class="flex flex-col lg:flex-row p-28 gap-x-16">
+                        <div>
+                            <p class="font-poppins text-6xl font-bold pb-5">Ride-on R15 V4 with Smile</p>
+                            <p class="font-poppins text-base font-light pb-12">Amet minim mollit non deserunt ullamco
+                                <br>est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit
+                                mollit.
+                            </p>
+                            <a class="btn btn-error px-12 text-white text-xl font-bold font-poppins">Purchase</a>
+                        </div>
+                        <img src="images/slider/bike3.png" class="w-1/2" />
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide-4 -->
+                <div id="slide4" class="carousel-item relative w-full">
+                    <div class="flex flex-col lg:flex-row p-28 gap-x-16">
+                        <div>
+                            <p class="font-poppins text-6xl font-bold pb-5">Ride-on R15 V4 with Smile</p>
+                            <p class="font-poppins text-base font-light pb-12">Amet minim mollit non deserunt ullamco
+                                <br>est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit
+                                mollit.</p>
+                            <a class="btn btn-error px-12 text-white text-xl font-bold font-poppins">Purchase</a>
+                        </div>
+                        <img src="images/slider/bike1.png" class="w-1/2" />
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </header>
 
